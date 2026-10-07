@@ -1,4 +1,13 @@
 {
+  "name": "octofit-tracker-backend",
+  "version": "1.0.0",
+  "description": "Octofit Tracker backend API",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^18.0.6",
